@@ -4,7 +4,7 @@
 
 ## Where it's at
 Currently apon trying to create the client object (e.g. `Nakama.Client`):
-```
+```csharp
 var client = new Nakama.Client("defaultkey", "localhost", 7350, true) {
     Timeout = 10000, // set timeout on requests (default is 5000).
     Retries = 5      // set retries on requests (default is 3).
